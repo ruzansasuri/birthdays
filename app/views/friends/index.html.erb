@@ -1,0 +1,11 @@
+<h1>Friend</h1>
+
+<div><%= link_to "New friend", new_friend_path %></div>
+<br />
+<div id="friends">
+  <% @friends.each do |friend| %>
+    <div>
+        <%= link_to friend.name, friend %>
+    </div>
+  <% end %>
+</div>

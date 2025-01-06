@@ -1,0 +1,16 @@
+<%= form_with model: friend do |form| %>
+<script>
+    console.log("friend[birthday]");
+</script>
+  <div>
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+    <br/>
+    <label for="friend_birthday">Date of Birth</label>
+    <input type="date" name="friend[birthday]" id="friend_birthday" value="friend[birthday]">
+  </div>
+    <br>
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
