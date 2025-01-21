@@ -8,6 +8,8 @@ If you would like to use this app yourself, follow the instructions below
 
 1. Clone the repo
 1. Install Ruby on Rails using the following website: https://guides.rubyonrails.org/install_ruby_on_rails.html
+
+# Usage.
 1. Open the root directory of birthdays.
 1. run bin/rails server
 1. You can the access the web app by going to [localhost:3000](http://localhost:3000)
